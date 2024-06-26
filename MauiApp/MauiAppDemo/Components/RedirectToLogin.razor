@@ -1,0 +1,13 @@
+﻿﻿@using MauiAppDemo.Models
+@inject NavigationManager Navigation;
+
+<div class="loader loader-bouncing"><span>Redirecting...</span></div>
+
+@code{
+
+    protected override void OnInitialized()
+    {
+        //The sole purpose of this Razor Component is to immediately redirect the user to the login page.
+        Navigation.NavigateTo("/login");
+    }
+}

@@ -396,3 +396,11 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# User cached files 
+*.suo 
+bin/ 
+obj/ 
+packages/ 
+*.user 
+\.vs
